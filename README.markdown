@@ -1,6 +1,6 @@
 # fork from https://github.com/handlino/fire-app-sample-project 
 
-# must use https://github.com/tka/FireApp, not compatible with offical Fire.App
+# must use https://github.com/tka/ETApp, not compatible with offical Fire.App
 
 # Fire.app
 
