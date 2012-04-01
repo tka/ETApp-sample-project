@@ -1,3 +1,7 @@
+# fork from https://github.com/handlino/fire-app-sample-project 
+
+# must use https://github.com/tka/FireApp, not compatible with offical Fire.App
+
 # Fire.app
 
 [Fire.app][fireapp] is a **menubar only app** for fast HTML prototyping.
