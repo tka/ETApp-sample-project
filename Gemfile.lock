@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/tka/serve.git
-  revision: 02456f67ec765aedf9b4abbf4219cbe73a3b8670
+  revision: 42b5d539d8719f396dfa89177f3b8a0352822173
   specs:
     serve (1.5.1)
       activesupport (~> 3.0)
