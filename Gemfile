@@ -1,7 +1,7 @@
 source :rubygems
 
 gem 'serve', :git => "git://github.com/tka/serve.git"
-
+gem 'thin'
 # Use edge instead:
 # gem 'serve', :git => 'git://github.com/jlong/serve.git'
 
