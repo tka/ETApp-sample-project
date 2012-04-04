@@ -44,11 +44,11 @@ use Rack::Coffee, {
 # Rack Application
 if ENV['SERVER_SOFTWARE'] =~ /passenger/i
   # Passenger only needs the adapter
-  run Serve::RackAdapter.new( root )
+  run Serve::RackAdapter.new( File.join(root, 'views' ))
 else
   # Use Rack::Cascade and Rack::Directory on other platforms for static assets
   run Rack::Cascade.new([
-    Serve::RackAdapter.new( root ),
-    Rack::Directory.new( root )
+    Serve::RackAdapter.new( File.join(root, 'views') ),
+    Rack::Directory.new( File.join(root, "public") )
   ])
 end
