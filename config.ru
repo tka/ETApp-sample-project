@@ -39,7 +39,7 @@ use Rack::ShowExceptions  # Nice looking errors
 use Rack::Coffee, { 
   :root => File.join(root, 'coffeescripts'), 
   :urls => Compass.configuration.http_javascripts_path,
-  :cache_compile_dir => File.join(root, '.coffee-cache')
+  :cache_compile => true
 }
 
 # Rack Application
